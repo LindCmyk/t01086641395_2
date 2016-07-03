@@ -5,21 +5,23 @@
 	<artifactId>t01086641395_2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
+	
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
-					<source />
-					<target />
+					<source> 1.8 </source>										
+				<target> 1.8 </target>
 				</configuration>
-			</plugin>
+			</plugin>			
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
+				
 					<!-- Path -->
 					<path>/t01088245558_1</path>
 					<!-- 구동중인 톰캣의 주소 + /manager/text -->
@@ -27,6 +29,7 @@
 					<!-- 톰캣 사용자 정보 -->
 					<username>student</username>
 					<password>sbsjava</password>
+					
 
 				</configuration>
 			</plugin>
